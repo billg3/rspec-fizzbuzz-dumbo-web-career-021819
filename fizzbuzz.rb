@@ -8,7 +8,8 @@ elsif int % 5 == 0
 return "Buzz"
 elsif int % 15 == 0
 return "FizzBuzz"
-elsif int 
+elsif int % 3 == 0 && int % 5 == 0 
+return "FizzBuzz"
   
 end 
 
